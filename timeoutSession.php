@@ -1,13 +1,12 @@
 <?php
 
-///////////////////// SECOND PART \\\\\\\\\\\\\\
+///////////////////// SECOND PART \\\\\\\\\\\\\\\\\\\\
 //Script to paste at the beginning of your post script.
 
 /*********** Get back the initial timestamp from the form script *******/
 
 $timeStamp = $_SESSION['clock']; // put into variable
-echo $timeStamp .'
-'; //debug counter Tstamp session form
+echo $timeStamp .'<br />'; //debug counter Tstamp session form
 //Substract 10sec to the timestamp saved in the current script
 //Timestamp saved by time(), we place the value in a variable
 
